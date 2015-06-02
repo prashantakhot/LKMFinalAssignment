@@ -1,0 +1,202 @@
+#header{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#accenture-logo{
+    padding-bottom: 10px;    
+    padding-top: 40px
+}
+
+#ria-logo{
+    padding-top: 50px;
+    padding-right: 90px;
+}
+
+#bs-example-navbar-collapse-1{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #515357;
+}
+li{
+    padding-bottom: 15px;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14;
+    font-style: normal;
+    color: #f2f2f2;
+}
+<!--#slider{
+ height:550px;
+ background-color:cadetblue;
+ margin-left: 10px;
+ margin-right: 10px;
+    
+}-->
+#slider-title{
+    margin-left: 70px;   
+    padding-top: 100px;
+    width:200px;
+    float:left;
+}
+
+#slider-image{
+ height:70px;
+ padding-top: 80px;
+ float:left;
+ width:590px;
+ margin-bottom: 30px;
+ margin-left:250px;   
+
+}
+
+#sancha-mobile{
+    margin-top:50px;   
+    width:200px;
+}
+
+
+#right-slider-image{
+ float:right;
+ padding-top:100px;
+}
+
+#slider-content{
+    padding-top: 20px;
+    font-size:12px;
+    color: #636363;
+}
+
+
+header.carousel {
+    height: 10%;
+    height:450px;
+    background-color:#00CC99;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-indicators{
+    float:right;
+    top:10px;
+    margin-left:100px;
+}
+.carousel-controls{
+    position:   absolute; 
+    padding-left:100px;
+    padding-right: 20px;
+    margin-left: 80px;
+    margin-top:-130px;
+}
+
+#row1{
+    height:230px;
+   `margin-top:40px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-top:40px;
+}
+
+#business-image{
+    height:130px; 
+    width:300px;
+}
+
+.panel-body{
+    height:100px;
+}
+#loadmore{
+ margin-top:50px;
+ margin-bottom: 10px;
+}
+#loadmore > p{
+ margin-top: 10px;   
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #515357;
+    height:90px;
+    font-size:12;
+    color: #eaeaea;
+    font-family: "arial";
+}
+
+.black_overlay{
+			display: none;
+			position: fixed;
+			top: 0;
+            bottom:0;
+			left: 0;
+            right:0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index:3;
+			-moz-opacity: 0.6;
+			opacity:.60;
+			filter: alpha(opacity=60);
+}
+.white_content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        width: 600px;
+        height: 500px;
+        padding: 16px;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+}
+#detailimage{
+    height:200px;
+    width:350px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#detailname{
+    font-size: 20;
+    color: #636363;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#lighboximage{
+    height:235px;
+    width:560px;
+    padding:10px 10px;
+    background-color: #f0f0f0;
+}
+#closeimage{
+    top:0px;
+    float:right;
+}
+#description{
+    padding-top: 20px;
+}
+
+#download{
+    float:right;
+    margin-right:20px;
+}
+#mysection{
+    position:relative;
+    height:570px;
+    overflow:hidden;
+}
+

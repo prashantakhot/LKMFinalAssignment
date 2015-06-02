@@ -1,0 +1,40 @@
+
+       <!-- Page Content --> 
+        <div class="container" id="mysection">
+            <div class="col-lg-12">
+            
+            </div>
+            <div id="row1" class="row" ng-controller="assetCtrl">
+                <div class="col-md-4 col-lg-4 col-sm-12" ng-repeat="x in names">
+                    <div class="panel panel-default" href = "javascript:void(0)">
+                    <div class="panel-heading">
+                        <img id="business-image"  data-image={{x.imageurl}} data-name={{x.Name}} data-description={{x.description}} data-contributor={{x.Contributor}}  data-createdon={{x.Created-on}} data-source={{x.source}} src= {{x.imageurl}} />
+                    </div>
+                    <div class="panel-body">
+                        <p>{{ x.Name }}</p>
+                        <p>Created on : {{ x.Created-on }}</p>
+                        <p>Contributor : {{ x.Contributor }}</p>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+          
+    
+        
+        
+        <div id="light" class="white_content">
+            <div id="closeimage"><img src="img/close-image.png" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"/></div>
+            <div id="detailname"></div>
+            
+            <div id="lighboximage"><center><img id="detailimage" src="#" /></center></div>
+            <article id="description"></article>    
+            <article id="contributor"></article>
+            <section style="margin-left:430px;font-size:14px;color:#51992b;padding:10px 5px;">View Live Asset</section>
+            <a id="gotosite" href="#"><button type="button" class="btn btn-success" id="download">Download</button></a>
+            
+        </div>
+            <div id="fade" class="black_overlay"></div>
+    
